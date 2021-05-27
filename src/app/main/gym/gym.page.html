@@ -1,0 +1,19 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title size="large" class="heavy-title">Gym</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="gym-container" style="background-color: aquamarine;">
+  GYM content
+  <ion-fab
+    horizontal="end"
+    vertical="bottom"
+    slot="fixed"
+    (click)="createManualRepsModal()"
+  >
+    <ion-fab-button>
+      <img src="../../../assets/icon/Gym/add.svg" alt="" />
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

@@ -1,0 +1,38 @@
+<ion-header class="ion-no-border">
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-toolbar color="white" class="ion-text-center">
+    <ion-text color="primary ion-text-capitalize" class="heavy-title">Welcome</ion-text>
+  </ion-toolbar>
+
+  <ion-text class="ion-text-center">
+    <div class="primary-content primary-gray-color-text ion-padding-top p-b-50 p-r-13 p-l-13">
+      Login
+    </div>
+  </ion-text>
+
+  <form [formGroup]="emailCheckForm" novalidate>
+    <ion-item lines="full" class="ion-no-padding m-r-13 m-l-13">
+      <ion-label position="floating" class="label-text"
+        [ngClass]=" validationErrorControl.email.errors?.pattern ?'error-text':'secondary-gray-color-text'">
+        EMail
+      </ion-label>
+      <ion-input type="email" class="primary-gray-color-text" formControlName="email" required></ion-input>
+    </ion-item>
+
+    <ion-row>
+      <ion-col class="ion-text-center p-t-50 ">
+        <ion-button type="submit" (click)="submitForm()" class="primary-button-55 ion-text-capitalize" color="primary" [disabled]="!emailCheckForm.valid"
+          shape="round">Continue</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+
+  <ion-text class="ion-text-center">
+    <div class="normal-text small-text ion-padding-top p-t-30 p-r-13 p-l-13">
+      <a class="primary-gray-color-text"> By continuing, you agree to Positive Intelligence’s </a> <ion-text color="primary">Terms & COndition</ion-text> 
+      <a class="primary-gray-color-text"> and </a> <ion-text color="primary" > Privacy policy</ion-text>
+    </div>
+  </ion-text>
+</ion-content>

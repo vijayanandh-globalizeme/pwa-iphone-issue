@@ -1,0 +1,49 @@
+.manual-reps-container {
+  .log-reps-heading {
+    padding: 20px 20px 15px 20px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+  }
+  .log-reps-sub-heading {
+    padding: 0px 20px 0px 20px !important;
+  }  input {
+    font-size: 50px !important;
+    font-weight: 700;
+    text-align: center;
+    color: transparent !important;
+    background-color: transparent;
+    text-shadow: 0 0 0 #4a4a4a !important;
+    border: 0px;
+    &:focus {
+      outline: none;
+    }
+    width: 100%;
+  }
+  .manual-reps {
+    padding: 15px 0px 12px 0px;
+  }
+  .save-button {
+    --background: #f4f5f7;
+    border-top: none;
+    border: none;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    height: 44px;
+    width: 147px;
+    --border-radius: 22px;
+  }
+  .manual-reps-primary-gray-color {
+    color: #4a4a4a;
+  }
+  .manual-reps-secondary-gray-color {
+    color: #6e6e6e;
+  }
+  .container {
+    font-style: normal;
+    letter-spacing: 0em;
+    font-size: 16px;
+    color: #4a4a4a;
+  }
+}

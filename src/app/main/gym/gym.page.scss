@@ -1,0 +1,84 @@
+.gym-container {
+  .preview-img {
+    height: 160px;
+    width: 120px;
+    left: 20px;
+    top: 144px;
+    border-radius: 10px;
+  }
+  .information-icon{
+    margin: -2px;
+  }
+  .item {
+    position: relative;
+  }
+  .gym-title {
+    padding: 15px 20px 15px 20px;
+    font-size: 22px !important;
+    font-weight: 900 !important;
+    line-height: 26px;
+    text-align: left;
+    color: #4a4a4a;
+  }
+  .item-title {
+    margin-top: 3px;
+    left: 0px;
+    bottom: 0px;
+    padding: 6px 6px 12px 6px;
+    color: white;
+    line-height: 18px;
+    text-align: left;
+  }
+  .play-icon {
+    position: relative;
+    padding-left: 20px;
+  }
+  .play-icon ion-icon {
+    top: 50%;
+    left: 3px;
+    transform: translateY(-50%);
+  }
+  .preview-img-div {
+    padding: 0px 20px 5px 20px;
+  }
+  .preview-img-lock {
+    margin-top: 3px;
+    right: 0px;
+    top: 0px;
+    padding: 12px;
+    color: white;
+    line-height: 18px;
+    text-align: left;
+  }
+  .gym-audio-title {
+    font-style: normal;
+    letter-spacing: 0em;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .empty-preview-img {
+    height: 160px;
+    width: 100%;
+    left: 20px;
+    top: 144px;
+    border-radius: 10px;
+    background-color: #4a4a4a8f;
+  }
+  .icon-position {
+    position: absolute;
+  }
+  .gym-audio {
+    padding: 0px 3.5px 3.5px 3.5px !important;
+  }
+  ion-fab-button{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    --box-shadow:none;
+  }
+  font-style: normal;
+  letter-spacing: 0em;
+  font-size: 15px;
+  font-weight: 400;
+}
+

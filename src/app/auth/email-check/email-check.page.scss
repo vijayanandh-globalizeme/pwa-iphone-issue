@@ -1,0 +1,16 @@
+:host {
+    ion-app {
+        top: 25px;
+        top: constant(safe-area-inset-top);
+        top: env(safe-area-inset-top);
+      }
+    ion-header {
+        padding-top: constant(safe-area-inset-top) !important;
+        padding-top: env(safe-area-inset-top) !important;
+        background: #fff;
+    }
+}
+
+body {
+    background-color: #21b1c7;
+}
